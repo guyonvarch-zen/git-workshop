@@ -9,7 +9,7 @@ import playground.util.Colors
 object Header {
   def apply(): Node =
     <header class={ Style.header.htmlClass }>
-      Git-workshop playground
+      Git-workshop playground A
     </header>
 
   object Style extends StyleSheet.Inline {
